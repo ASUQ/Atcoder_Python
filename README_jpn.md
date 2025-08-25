@@ -5,14 +5,11 @@
 ## 環境
 - [Python 3.13 (slim)](https://hub.docker.com/layers/library/python/3.13-slim/images/sha256-cd4cb2ba193c13d36b59f01c9518d709b41b886388c3af2bbe7d7b29f15a303f)
 - [online-judge-tools (oj)](https://pypi.org/project/online-judge-tools/)
- with tab completion
 - [Jupyter](https://pypi.org/project/jupyter/)
 - [Selenium](https://pypi.org/project/selenium/)
- (for silencing warnings or optional use)
+ (oj実行時の警告を抑制するため)
 
 ## 🚀 セットアップ
-
-Follow these steps to get the same development environment on Windows, macOS, or Linux.
 
 1. 必要なツールのインストール
 
@@ -41,9 +38,9 @@ cd Atcoder_Python
 	2.  「Reopen in Container」（またはコマンドパレットから Dev Containers: Reopen in Container）を実行
 
 実行後、 VS Code が以下を自動で行います：
-- Build the Docker image from .devcontainer/Dockerfile.
-- Mount your project into the container at /workspaces/Atcoder_python.
-- Install Python, oj, Jupyter, and Selenium automatically.
+- `.devcontainer/Dockerfile` からイメージをビルド
+- プロジェクトを `/workspaces/<repo>` にマウント
+- `Python` / `online-judge-tools` / `Jupyter` / `Selenium` をインストール
 
 
 > [!WARNING] ⚠️ work/ フォルダについてwork/ フォルダについて
@@ -74,8 +71,3 @@ JupyterLab を起動（ポート 8888 が転送されます）:
 ## 🐳 その他
 - 必ず フォーク → 自分のフォークをクローン → 自分のコードをプッシュ の流れで利用してください
 - Windows（WSL2 経由）、macOS（Intel / Apple Silicon）、Linux のすべてで動作します
-
-
-## 🙌 Contributing
-
-Feel free to open issues or PRs to improve the environment (e.g., add useful extensions, packages, or helper scripts).
