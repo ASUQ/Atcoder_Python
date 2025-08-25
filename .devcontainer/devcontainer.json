@@ -1,6 +1,6 @@
 {
   "name": "AtCoder Workspace",
-  "build": { "dockerfile": "Dockerfile", "context": "." },
+  "build": { "dockerfile": "Dockerfile", "context": ".." },
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "remoteUser": "root",
   "init": true,
