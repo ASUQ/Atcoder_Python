@@ -10,15 +10,13 @@ This repository provides a ready-to-use VS Code Dev Container for competitive pr
  with tab completion
 - [Jupyter](https://pypi.org/project/jupyter/)
 - [Selenium](https://pypi.org/project/selenium/)
- (for silencing warnings or optional use)
+ (for silencing warnings on oj use)
 
 ## 🚀 Setup Instructions
 
 Follow these steps to get the same development environment on Windows, macOS, or Linux.
 
 1. Install prerequisites
-
-Make sure you have the following installed on your laptop:
 
 - [Git](https://git-scm.com/)
 - [Docker](https://docs.docker.com/get-started/get-docker/)
@@ -50,7 +48,8 @@ VS Code will then:
 - Install Python, oj, Jupyter, and Selenium automatically.
 
 
-> [!WARNING] ⚠️ Important: work/ folder
+> [!WARNING]
+Important: work/ folder
 > - This repository contains a folder called work/.
 > - It is where you should put all your own contest code and notebooks.
 > - Before starting to use the container, please delete the existing contents of work/ — those are my solutions, kept here only as an example.

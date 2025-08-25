@@ -54,7 +54,6 @@ work/ フォルダについて
 Python スクリプトを実行:
 `python main.py`
 
-
 online-judge-toolsの使い方は以下のリンクを参照してください：https://github.com/online-judge-tools/oj
 
 問題をダウンロード:
