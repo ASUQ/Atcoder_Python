@@ -43,7 +43,7 @@ cd Atcoder_Python
 - `Python` / `online-judge-tools` / `Jupyter` / `Selenium` をインストール
 
 
-> [!WARNING] ⚠️ work/ フォルダについてwork/ フォルダについて
+> [!WARNING] work/ フォルダについて
 > - リポジトリには work/ フォルダが含まれています。
 > - ここに 自分のコンテスト用コードやノートブック を保存してください。.
 > - 利用を開始する前に、既存の work/ フォルダの内容を削除してください。
