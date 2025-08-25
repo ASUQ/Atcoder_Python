@@ -1,7 +1,7 @@
 # AtCoder Python Dev Container
 
 > [!Important]
-> [日本語はこちら](README_jpn.md)
+> [日本語版はこちら](README_jpn.md)
 
 This repository provides a ready-to-use VS Code Dev Container for competitive programming on AtCoder.
 
@@ -19,12 +19,12 @@ Follow these steps to get the same development environment on Windows, macOS, or
 
 1. Install prerequisites
 
-- [Git](https://git-scm.com/)
-- [Docker](https://docs.docker.com/get-started/get-docker/)
-	- Windows/macOS → install Docker Desktop
-	- Linux → install Docker engine via your package manager.
-- [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
-- Dev Containers extension for VS Code ([See tutorial](https://code.visualstudio.com/docs/devcontainers/containers))
+	- [Git](https://git-scm.com/)
+	- [Docker](https://docs.docker.com/get-started/get-docker/)
+		- Windows/macOS → install Docker Desktop
+		- Linux → install Docker engine via your package manager.
+	- [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+	- Dev Containers extension for VS Code ([See tutorial](https://code.visualstudio.com/docs/devcontainers/containers))
 
 2. Fork this repository
 
@@ -43,10 +43,10 @@ cd Atcoder_Python
 	- Or, open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS) and run:
 “Dev Containers: Reopen in Container”
 
-VS Code will then:
-- Build the Docker image from .devcontainer/Dockerfile.
-- Mount your project into the container at /workspaces/Atcoder_python.
-- Install Python, oj, Jupyter, and Selenium automatically.
+	VS Code will then:
+	- Build the Docker image from .devcontainer/Dockerfile.
+	- Mount your project into the container at /workspaces/Atcoder_python.
+	- Install Python, oj, Jupyter, and Selenium automatically.
 
 
 > [!WARNING]

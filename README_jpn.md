@@ -13,14 +13,12 @@
 
 1. 必要なツールのインストール
 
-以下をあらかじめインストールしてください：
-
-- [Git](https://git-scm.com/)
-- [Docker](https://docs.docker.com/get-started/get-docker/)
-	- Windows/macOS → Docker Desktop をインストール
-	- Linux → install Docker engine をインストール
-- [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
-- Dev Containers extension for VS Code ([See tutorial](https://code.visualstudio.com/docs/devcontainers/containers))
+	- [Git](https://git-scm.com/)
+	- [Docker](https://docs.docker.com/get-started/get-docker/)
+		- Windows/macOS → Docker Desktop をインストール
+		- Linux → install Docker engine をインストール
+	- [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+	- Dev Containers extension for VS Code ([See tutorial](https://code.visualstudio.com/docs/devcontainers/containers))
 
 2. このリポジトリをフォーク
 	- GitHub 上でこのリポジトリを開く
@@ -28,19 +26,19 @@
 
 3. フォークしたリポジトリをクローン
 ターミナルで以下を実行します（`<your-github-username>` は自分の GitHub ユーザー名に置き換えてください）：
-```bash
-git clone https://github.com/<your-github-username>/Atcoder_Python.git
-cd Atcoder_Python
-```
+	```bash
+	git clone https://github.com/<your-github-username>/Atcoder_Python.git
+	cd Atcoder_Python
+	```
 
 4. VS Code で開く
 	1.  VS Code でフォルダを開く
 	2.  「Reopen in Container」（またはコマンドパレットから Dev Containers: Reopen in Container）を実行
 
-実行後、 VS Code が以下を自動で行います：
-- `.devcontainer/Dockerfile` からイメージをビルド
-- プロジェクトを `/workspaces/<repo>` にマウント
-- `Python` / `online-judge-tools` / `Jupyter` / `Selenium` をインストール
+	実行後、 VS Code が以下を自動で行います：
+	- `.devcontainer/Dockerfile` からイメージをビルド
+	- プロジェクトを `/workspaces/<repo>` にマウント
+	- `Python` / `online-judge-tools` / `Jupyter` / `Selenium` をインストール
 
 
 > [!WARNING]
