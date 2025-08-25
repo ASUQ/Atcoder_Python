@@ -1,6 +1,7 @@
 # AtCoder Python Dev Container
 
-[日本語はこちら](README_jpn.md)
+> [!Note]
+> [日本語はこちら](README_jpn.md)
 
 This repository provides a ready-to-use VS Code Dev Container for competitive programming on AtCoder.
 
