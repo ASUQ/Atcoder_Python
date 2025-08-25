@@ -17,8 +17,8 @@
 
 - [Git](https://git-scm.com/)
 - [Docker](https://docs.docker.com/get-started/get-docker/)
-	- Windows/macOS → install Docker Desktop
-	- Linux → install Docker engine via your package manager.
+	- Windows/macOS → Docker Desktop をインストール
+	- Linux → install Docker engine をインストール
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
 - Dev Containers extension for VS Code ([See tutorial](https://code.visualstudio.com/docs/devcontainers/containers))
 
@@ -27,7 +27,7 @@
 	- Fork をクリックして、自分のアカウントにコピーを作成
 
 3. フォークしたリポジトリをクローン
-ターミナルで以下を実行します（<your-github-username> は自分の GitHub ユーザー名に置き換えてください）：
+ターミナルで以下を実行します（`<your-github-username>` は自分の GitHub ユーザー名に置き換えてください）：
 ```bash
 git clone https://github.com/<your-github-username>/Atcoder_Python.git
 cd Atcoder_Python
