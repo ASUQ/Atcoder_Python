@@ -25,7 +25,8 @@
 	- Fork をクリックして、自分のアカウントにコピーを作成
 
 3. フォークしたリポジトリをクローン
-ターミナルで以下を実行します（`<your-github-username>` は自分の GitHub ユーザー名に置き換えてください）：
+
+	ターミナルで以下を実行します（`<your-github-username>` は自分の GitHub ユーザー名に置き換えてください）：
 	```bash
 	git clone https://github.com/<your-github-username>/Atcoder_Python.git
 	cd Atcoder_Python
