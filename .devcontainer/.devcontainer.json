@@ -1,0 +1,25 @@
+{
+  "name": "AtCoder Workspace",
+  "build": { "dockerfile": "Dockerfile", "context": "." },
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "remoteUser": "root",
+  "init": true,
+  "forwardPorts": [8888],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "python",
+        "python.analysis.typeCheckingMode": "basic",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "postCreateCommand": "if [ -f .devcontainer/requirements.txt ]; then uv pip install --system -r .devcontainer/requirements.txt; fi",
+  "containerEnv": { "PYTHONWARNINGS": "ignore" }
+}
