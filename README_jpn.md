@@ -70,4 +70,4 @@ JupyterLab を起動（ポート 8888 が転送されます）:
 
 ## 🐳 その他
 - 必ず フォーク → 自分のフォークをクローン → 自分のコードをプッシュ の流れで利用してください
-- Windows（WSL2 経由）、macOS（Intel / Apple Silicon）、Linux のすべてで動作します
+- Windows、macOS（Intel / Apple Silicon）、Linux のすべてで動作します
